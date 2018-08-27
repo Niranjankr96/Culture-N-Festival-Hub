@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mizoram</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Mizoram</h1>
+<div id="menu">
+ <ul>
+<li><a href="#">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Mizo Thali.jpg" >
+                       
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/mizod1.jpg" >
+						<img class="mySlides" src="images1/mizod2.jpg" >
+						<img class="mySlides" src="images1/mizod3.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Chapchar Kut</a>
+  			<ul>
+  			<div><img src="images1/chapchar.jpg">
+          <img src="images1/chapchar 2.jpg">
+<h2>Chapchar Kut</h2>
+						
+<p><br>The Chapchar Kut Festival is one of the extravagant Fiestas in Mizoram and is regarded as one of the grand carnivals that are held in the state. It is visited by numerous people from across the country who enjoy the richly hued fete; it is almost a National Level Fiesta and therefore the Chapchar Kut is the most delicate and sensitive gala event in Mizoram.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#"> Pawl Kut</a>
+<ul>
+ <div><img src="images1/Pawl-kut.jpg">
+            <h2>Pawl Kut </h2>
+						
+<p><br> Pawl Kut in Mizoram is a colorful harvest festival that is accompanied with ballet, songs and jollity. There is a historical concoction to the Pawl Kut Festival. In the ancient times the Mizos had been staying in the eastern part of the Tiau River. This is in Chin Hills, presently contained by the Burma Border.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+			
+		

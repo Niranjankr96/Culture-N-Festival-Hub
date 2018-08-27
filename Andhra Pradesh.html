@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Andhra Pradesh</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Andhra Pradesh</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Adfo1.jpg" >
+                        <img class="mySlides" src="images1/Adfo2.jpg" >
+                       
+                        
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Adf1.jpg" >
+						<img class="mySlides" src="images1/Adf2.jpg" >
+						
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Pongal</a>
+  			<ul>
+  			<div><img src="images1/Pongal.jpg">
+<h2>Pongal</h2>
+
+						
+<p><br>One of the most significant festivals of South India, Pongal is celebrated every year to mark the beginning of Uttarayana, that is the movement of the sun towards north and to mark the time for harvest. It is a four day long festival celebrated with a lot of vigor and merry making in almost every household. It is often called the ‘Harvest Festival’ and is celebrated to commemorate the beginning of harvesting crops in the fields. Initially a festival of the farmers, now, Pongal is celebrated all over south India. The meaning of the word Pongal is ‘Boiling Over’, as it celebrates the abundant crops in the field. Pongal marks the biggest festival in the calendar of the fairs and festivals in Andhra Pradesh.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Ugadi Festival</a>
+<ul>
+ <div><img src="images1/ugadi.jpg">
+            <h2>Ugadi Festival</h2>
+						
+<p><br>The Ugadi Festival in Andhra Pradesh is the New Year festival that is celebrated every year as Ugadi marks the beginning of the Hindi Lunar calendar. Ugadi marks a day of joy and happiness, aspirations and hope, the belief are that this day and its joys would foreshadow the course of events for the upcoming year.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>

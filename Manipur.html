@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Manipur</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Manipur</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/manipuri thali.jpg" >
+                       
+                        
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/mand1.jpg" >
+						<img class="mySlides" src="images1/mand2.jpg" >
+						<img class="mySlides" src="images1/mand3.jpg" >
+              <img class="mySlides" src="images1/mand4.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Cheiraoba Festival</a>
+  			<ul>
+  			<div><img src="images1/cheirabo.jpg">
+<h2>Cheiraoba Festival</h2>
+						
+<p><br>On the lap of Himalaya lies a picturesque state named Manipur. This state is famous for its scenic beauty, silent hills and green vegetation. The state is an isolated land from the main land yet it bears a rich heritage and culture. Manipur , the small state in north eastern part of India is the store house natural resources. The solitary hills of Himalaya, the deep gorge and the innocent people make a perfect combination as a tourist spot. Tourists visiting Manipur will surely get impressed with their traditional customs and heritage which still shows their individuality and uniqueness.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Chumpha Festival</a>
+<ul>
+ <div><img src="images1/chumpa 2.jpg">
+  <img src="images1/chumpa.jpg">
+            <h2>Chumpha Festival</h2>
+						
+<p><br> Manipur, the land of merriment, is always busy with one festival or the other throughout the year. Different cultures and races in Manipur have different festivals to celebrate and each is rejoiced with an equal passion and zeal. It is the Tanghul Nagas of Manipur who celebrate the Chumpha Festival, one of their most popular and fêted festivals. The Chumpha Festival in Manipur is a harvest festival and is held with a lot of rejoicing and merriment.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+		
+		
+	

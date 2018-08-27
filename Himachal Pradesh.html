@@ -1,0 +1,105 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Himachal Pradesh</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Himachal Pradesh</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/hp1.jpg" >
+                        <img class="mySlides" src="images1/hp2.jpg" >
+                       
+                        
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/hpd1.jpg" >
+						<img class="mySlides" src="images1/hpd2.jpg" >
+						<img class="mySlides" src="images1/hpd3.jpg" >
+              <img class="mySlides" src="images1/hpd4.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Minjar Fair </a>
+  			<ul>
+  			<div><img src="images1/minjar.jpg">
+<h2>Minjar Fair</h2>
+						
+<p><br>The Minjar Fair is held in Himachal Pradesh with great pomp and fanfare. Tourists throng the Chamba region at Himachal Pradesh during the Minjar Fair. It is a fiesta that brings into notice the rich cultural heritage of India. Numerous legends are associated with the Minjar Fair in Himachal Pradesh.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Festival of Sair</a>
+<ul>
+ <div><img src="images1/hpf1.jpg">
+            <h2>Festival of Sair</h2>
+						
+<p><br>Festival of Sair in Shimla at Himachal Pradesh is a renowned all over the country for its liveliness and splendor. Himachal Pradesh with its numerous fairs and festivals glorifies the Indian customs and traditions, and one of them is Festival of Sair in Shimla at Himachal Pradesh. Indian Festivals have a powerful western influence especially after the advent of the various conquerors like Alexander, Babur, Ibrahim Lodi and last but not the least, the British.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+		

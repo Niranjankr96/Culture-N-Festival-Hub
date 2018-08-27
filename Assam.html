@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assam</title>
+	<link  href="mystyle.css"  rel="stylesheet" type="text/css"/>
+</head>
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Assam</h1>
+<div id="menu">
+ <ul>
+ 	<li><a href="index1.html">Home</a></li>
+ 	<li> <a href="#"> Food </a> 
+	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Assam thali.jpg" >
+                        <img class="mySlides" src="images1/assam pitha.jpg" >
+                       
+                        
+	                    
+						
+</div>
+</ul>
+	</li>
+ 	
+<li> <a href="#"> Fashion </a>
+<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/A1.jpg" >
+						<img class="mySlides" src="images1/A2.jpg" >
+						<img class="mySlides" src="images1/A3.jpg" >
+						<img class="mySlides" src="images1/A4.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+ 	<li> <a href="#"> Festival </a> 
+ 	<ul>
+ 		<li> <a href="#">Bohag Bihu</a>
+		
+		<ul>
+		 <div><img src="images1/Rongali.jpg">
+		 	<img src="images1/Bohag Bihu.jpg">
+            <h2>Bohag Bihu</h2>
+						
+<p><br>The Bihu Festivals is one of the most popular festivals of Assam, a north-eastern state in India. The Bihus are the most important festivals of Assam,which are celebrated each year with loads of fun and abundance. Of the three Bihu Festivals held in Assam, the Rongali Bihu Festival is celebrated in Spring. The Assamese people, irrespective of caste, creed, faith, religion and belief, take part in the Bihu Festival.</p>
+                      </ul>
+
+		</li>
+ 		<li> <a href="#">Magh Bihu</a>
+		<ul>
+		 <div><img src="images1/bhoghali.jpg">
+            <h2>Magh Bihu</h2>
+						
+<p><br> The Magh Bihu festival of Assam is celebrated with great fervor by its entire populace. Characterized by merry making and feasting, this festival marks the end of the harvesting season when there is abundance of everything. This is the time when the hard working agricultural folk of the state sit down to reap the benefits of their labor. However, it must be pointed out that the Magh Bihu festival is not limited to the agricultural pockets of the state. Right from the smallest of villages to the big towns and cities of Assam, people celebrate this festival with great joy, though it must be mentioned that the mode of celebration differs from the villages to the cities.</p>
+                      </ul>
+		</li>
+ 		<li> <a href="#">Ambubachi Mela</a>
+	
+		<ul>
+		 <div><img src="images1/ambubachi.jpg">
+            <h2>Ambubachi Mela</h2>
+						
+<p><br>The Ambubachi Mela is celebrated in the capital city of Guwahati, in the northeastern state of Assam in India. The Ambubachi Mela is the most important festival of the Kamakhya Temple of Guwahati. The Ambubachi is a ritual of asceses observed with “Tantrik means”. It is believed that the presiding goddess of the temple, Devi Kamakhya, the Mother Shakti, goes through her annual cycle of menstruation during this time stretch.</p>
+                      </ul>
+		</li>
+ 		
+ 	</ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>

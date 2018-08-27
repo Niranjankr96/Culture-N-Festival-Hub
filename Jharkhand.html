@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jharkhand</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Jharkhand</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/jha.jpg" >
+                        
+                        
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/jhad2.jpg" >
+						<img class="mySlides" src="images1/jhad1.jpg" >
+						
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Bhadli Mela</a>
+  			<ul>
+  			<div><img src="images1/bhandli.jpg">
+<h2>Bhadli Mela</h2>
+						
+<p><br>The people in Jharkhand need a reason to celebrate life. This is evident from the number of fairs and festivals that are held in different state premises throughout the year. Apart from the very popular cattle fairs in Jharkhand, there are also a number of religious fairs and festivals that take place in Jharkhand. People from all over the state and from neighboring states come together and gather at the venue to observe the occasion and enjoy the celebrations of the fair. The Bhadli fair in Jharkhand is a religious fair which dates back to ancient times.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Lawalong Mela</a>
+<ul>
+ <div><img src="images1/lawalong.jpg">
+            <h2>Lawalong Mela</h2>
+						
+<p><br>Jharkhand is noted for its fairs and festivals and there is always some fair or festival happening in the state, keeping the people in a festive mood  throughout the year. There are a number of fairs held in memory of some saint or a pir. Jharkhand is also well known for the number of cattle fairs that take place here. People from near and far travel through the dusty roads to be a part of this festive extravaganza. One such cattle fair in Jharkhand is the Lawalong Mela.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+		

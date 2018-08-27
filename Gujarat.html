@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gujarat</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+
+	<h1>Gujarat</h1>
+<div id="menu">
+ <ul>
+ <li><a href="index1.html">Home</a></li>
+ 	<li> <a href="#"> Food </a> 
+	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        
+                        <img class="mySlides" src="images1/guj2.jpg" >
+                        <img class="mySlides" src="images1/guj3.jpg" >
+                        
+	                    
+						
+</div>
+</ul>
+	</li>
+ 	
+<li> <a href="#"> Fashion </a>
+<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/gujd.jpg" >
+						<img class="mySlides" src="images1/gujd2.jpg" >
+						<img class="mySlides" src="images1/gujd3.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ 	<li> <a href="#"> Festival </a> 
+ 	<ul>
+ 		<li> <a href="#">International Kite</a>
+  			<ul>
+  			<div><img src="images1/gk1.jpg">
+          <img src="images1/gk2.jpg">
+<h2>International Kite</h2>
+						
+<p><br>The exceptionally vibrant and a cauldron of numerous cultures and sub-cultures, state of Gujarat gets soaked in the whole new burst of hues during the International Kite Festival every year when the place erupts in a unique enthusiasm. Every shop, every office and every other normal activity is completely shut down as the locals take to rooftops, roads and open spaces to celebrate Uttarayan or Makar Sakranti to fly kite and fiercely compete with their neighbors. Children, who would make so many excuses to rise up the school every day would be found wide awake and soaring their kites high into the sky early morning on this day. Such is the atmosphere on Uttarayan in Gujarat.</p>
+                      </ul>
+  		               </li>
+		
+ 		<li> <a href="#">Navratri</a>
+		<ul>
+		 <div><img src="images1/garba.jpg">
+            <h2>Navratri</h2>
+						
+<p><br> Navratri is one of the most gorgeous festivals in India. It is a great festival to experience for visitors as the festival involves a number of religious traditions and customs. Navratri is celebrated in Gujarat in the grandest way. It is a festival that lasts for 9 days. Though this is a festival mainly for the Hindu community but people from other communities also join the celebration.</p>
+                      </ul>
+				</li>
+		
+ 		
+	
+ 	</ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+ 	

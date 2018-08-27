@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Punjab</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Punjab</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Punjabi-Thali1.jpg" >
+                         <img class="mySlides" src="images1/punjabi-thali2.jpg" >
+                       
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Pj1.jpg" >
+						<img class="mySlides" src="images1/Pj2.jpg" >
+						<img class="mySlides" src="images1/Pj3.jpg" >
+           
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+        <li><a href="#">Lohri Festival</a>
+  			<ul>
+  			<div><img src="images1/lohri.jpg">
+          <img src="images1/lohri2.jpg">
+<h2>Lohri Festival</h2>
+						
+<p><br>Lohri is a very popular carnival at Punjab and is celebrate with maximum zeal and enthusiasm in the state. Mainly celebrated to mark the departure of the Winter it is
+                synonymous with the Pongal of Tamil Nadu, Sankranti of UP, Bihar and Karnataka, Bhogi of Andra Pradesh and Bihu of Assam. Although it is related with the harvest season and gathering of grains, in Punjab it is celebrated as a matrimonial fete of the newly married couple to strengthen the marital bondage.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Baisakhi</a>
+<ul>
+ <div><img src="images1/baishakhi1.jpg">
+  <img src="images1/baishakhi2.jpg">
+            <h2>Baisakhi </h2>
+						
+<p><br> In the year 1699, the 10th Guru of the Sikhs, Guru Gobind Singh established the Panth Khalsa or the Order of Pure ones for the Sikhs. The Baisakhi Festival is usually held on 
+          that day in Punjab. Punjab is an agricultural Land and the main occupation of the people is agriculture.</p>
+                      </ul>
+				</li>
+        <li> <a href="#">Guru Nanak Dev</a>
+<ul>
+ <div><img src="images1/Guru-Nanak.jpg">
+            <h2>Guru Nanak Dev</h2>
+            
+<p><br> India is known for its many hued fairs and festivals that form an integral part of the attraction of India. Each state, race and culture comes up with different fairs and festivals that are different from each other, each with different origin and each has a different way of celebration. The Indian  calendar gives you a long list of fairs and festivals- in all corners of the country. Some festivals are famous celebrated by all over India while others are nondescript affairs.</p>
+                      </ul>
+        </li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+			
+		

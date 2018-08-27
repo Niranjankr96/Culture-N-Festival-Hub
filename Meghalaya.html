@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meghalaya</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Meghalaya</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/meghalaya.jpg" >
+                       
+                        
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/megd1.jpg" >
+						<img class="mySlides" src="images1/megd2.jpg" >
+						<img class="mySlides" src="images1/megd3.jpg" >
+            <img class="mySlides" src="images1/megd4.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#"> Autumn Festival</a>
+  			<ul>
+  			<div><img src="images1/autumn.jpg">
+<h2> Autumn Festival</h2>
+						
+<p><br>Autumn Festival is a well-known festival in India. This festival is one of those festivals which mark the onset of a season. It is mainly celebrated in Shillong, capital of Meghalaya. This is actually a cultural extravaganza that reflects the rich culture of the nation. The festival acts as a great platform to display the culture of the place and get transformed into a center of fun and frolic for tourists.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Behdienkhlam</a>
+<ul>
+ <div><img src="images1/Behdeinkhlam.jpg">
+            <h2>Behdienkhlam</h2>
+						
+<p><br> Meghalaya is mainly inhabited by the tribal people and they worship elements of nature as Gods and Goddesses like most tribal people. Behdienkhlam is one such. It is the festival that involves the warding off the evil forces symbolized by the demons. Since Plague is a fatal disease that is feared by the inhabitants of Meghalaya; it is believed that evil resides in the form of disease and needs to be driven off by beating the household roofs with bamboo poles. "The world is a dangerous place to live, not because of the people who are evil, but because of the people who don't do anything about it".</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>

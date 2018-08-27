@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Madhya Pradesh</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Madhya Pradesh</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/MP1.jpg" >
+                        <img class="mySlides" src="images1/MP2.jpg" >
+                        
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/mpd.jpg" >
+					
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Khajuraho Dance</a>
+  			<ul>
+  			<div><img src="images1/khajurao 2.jpg">
+          <img src="images1/khajurao.jpg">
+<h2>Khajuraho Dance</h2>
+						
+<p><br>The Khajuraho Dance Festival is the celebration of the traditional dance forms against the backdrop of the UNESCO World Heritage Sites. The cultural presentation is an intriguing spectacle of art and traditions of India presented in the form of dance. The site being testimony to India culture and traditions is ideal to  present the classical forms of dance. As the winters pass to make for spring, the Dance Festival is organized. Spectators from all over the world attend the  demonstration of art in the dance form.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Easter Festival</a>
+<ul>
+ <div><img src="images1/easter.jpg">
+            <h2>Easter Festival</h2>
+						
+<p><br>Madhya Pradesh boasts of a list of various fairs and festivals that includes all the chief events. Besides observing various rituals of these festivals and fairs, people can also have a peep into the tradition and culture of this place. Amongst the Fairs and Festivals in Madhya Pradesh, Easter is one of the major occasions that draws a lot of people.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>

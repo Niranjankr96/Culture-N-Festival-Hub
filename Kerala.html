@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kerala</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Kerala</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/kerala 2.jpg" >
+                        <img class="mySlides" src="images1/kerala.jpg" >
+                       
+	                    
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/krld1.jpg" >
+						<img class="mySlides" src="images1/krld2.jpg" >
+						<img class="mySlides" src="images1/krld3.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+ 		        <li><a href="#">Kerala Boat</a>
+  			<ul>
+  			<div><img src="images1/kerala boat.jpg">
+<h2>Kerala Boat</h2>
+						
+<p><br> Boat Festival is enhanced with different sizes of the boats, where you can see the team spirit among participants, great enthusiasm among the riders and people cheering each other all around the place. Most Famous Boat Races in Kerala: Nehru Trophy Boat Race in Alleppey, Champakulam Moolam Boat Race at Alappuzha,Vallam Kali at Punnamada Lake and PayippadJalotsavam at PayippadLake located at a distance of 35 km from the district Alappuzha Time of Celebration: Usually the  boat festival is held in between July to September. Major Attraction: Unique feature of the boat festival is that it is celebrated for many reasons. It is either associated with temples or with Onam or at times held without any reason.
+.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Onam</a>
+<ul>
+ <div><img src="images1/onam1.jpg">
+  <img src="images1/onam2.jpg">
+            <h2>Onam</h2>
+						
+<p><br>A 10-day long festival, Onam is a well renowned Hindu festival that is celebrated with huge devotions. The striking feature of this festival is that it involves Kathakali dance, indoor and outdoor games, boat races and several featuring songs. Onam has been celebrated to mark the homecoming of King Mahabali, who used to rule Kerala during the ancient perio The period of King Mahabali was said to be a golden era of Kerala, where people lived happily with love, harmony, and prosperity.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>

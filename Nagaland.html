@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nagaland</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Nagaland</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/naga thali.jpg" >
+                       
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/naga1.jpg" >
+						<img class="mySlides" src="images1/naga2.jpg" >
+						<img class="mySlides" src="images1/naga3.jpg" >
+            <img class="mySlides" src="images1/naga4.jpg" >
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+        <li><a href="#">Hornbill Festival</a>
+  			<ul>
+  			<div><img src="images1/Hornbill1.jpg">
+          <img src="images1/Hornbill2.jpg">
+<h2>Hornbill Festival</h2>
+						
+<p><br>The eagerly awaited Hornbill Festival, is one of the most cherished festivals of Nagaland, India’s Far North Eastern state and celebrated by locals with much enthusiasm
+                   and zeal. The festival is named after Hornbill, one of the most venerated bird species in the state whose importance is reflected in a number of tribal cultural 
+                  expressions, songs and dances. Almost 85% of Nagaland’s population still depends upon agriculture, so most of their festivals revolve around agriculture which they
+                  consider sacred. The Hornbill Festival is one of the largest celebrations of the indigenous warrior tribes of Nagaland.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#"> Tuluni Festival</a>
+<ul>
+ <div><img src="images1/tuluni.jpg">
+            <h2>Tuluni Festival </h2>
+						
+<p><br> The most significant festival celebrated by the Sumi Naga tribe of Nagaland is the Tuluni Festival. This festival is celebrated to rejoice the most abundant and fruitful
+                 season of the year in Nagaland. The Sumi tribe in Nagaland celebrates the Tuluni Festival with splendor and grandeur. During the Tuluni Festival there are prayers and 
+                 offerings that are given to Litsaba, who is the deity of fruitfulness who gives life and protection to the crops.</p>
+                      </ul>
+				</li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+			
+		

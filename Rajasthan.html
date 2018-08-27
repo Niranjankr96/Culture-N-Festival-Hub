@@ -1,0 +1,121 @@
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Rajasthan</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Rajasthan</h1>
+<div id="menu">
+ <ul>
+<li><a href="index1.html">Home</a></li>
+
+  <li><a href="#">Food</a>
+  <ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/Rajasthani thali.jpg" >
+                       
+						
+</div>
+</ul>
+</li>
+ 
+ <li><a href="#">Fashion</a>
+  	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/raj1.jpg" >
+						<img class="mySlides" src="images1/raj2.jpg" >
+						<img class="mySlides" src="images1/raj3.jpg" >
+						<img class="mySlides" src="images1/raj4.jpg" >
+           
+                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+ <li> <a href="#"> Festival </a> 
+ 	     <ul>
+        <li><a href="#">Mewar Festival</a>
+  			<ul>
+  			<div><img src="images1/Mewar.jpg">
+         
+<h2>Mewar Festival</h2>
+						
+<p><br>The city of Udaipur comes alive with colours of festivities during the Mewar Festival which marks the advent of spring in the region. It is a major festival of 
+                         Rajasthan and people from all over the globe flock to Udaipur to witness the glory of the town during this time. The whole town is decorated with bright lights  and a joyous mood reigns in the air. This festival includes a number of practices, like dressing the idols of Isar and Gangaur and carrying them in a traditional procession through various parts of the city. People also engage in the cultural dance and songs, revealing the colourful culture of Rajasthan.</p>
+                      </ul>
+  		               </li>
+ <li> <a href="#">Urs Festival</a>
+<ul>
+ <div><img src="images1/ajmer.jpg">
+  
+            <h2>Urs Festival </h2>
+						
+<p><br>  Usually held in the month of May and June, the Urs Festival is one of the major festivals celebrated at the venerated Ajmer Sharif Dargah. Hordes of pilgrims travel 
+                      to this town, located to the West of Jaipur to visit this holy shrine.  The Urs Festival commemorates the death anniversary of Khwaja Moinuddin Chisti, the revered 
+                      Sufi Saint. The fair is held for six days because it is believed that the Khwaja Moinuddin cooked for six days before he left his mortal remains. His followers from 
+                      all over the world throng Ajmer to seek his blessings during these six sacred days.</p>
+                      </ul>
+				</li>
+        <li> <a href="#">Camel Festival</a>
+<ul>
+ <div><img src="images1/camel.jpg">
+            <h2>Camel Festival</h2>
+            
+<p><br> Organised in the honour of the ship of the desert, the Camel Festival is a spectacular festival celebrated in Bikaner. Just like the other celebrations of
+                         Rajasthan, this festival kicks off with great pomp and show. Celebrated every year in the pleasant January, the Camel Festival is a two-day long affair with a
+                         colourful parade of the decked up camels against the backdrop of the magnificent Junagadh Fort. It includes camel race, camel games and other cultural
+                         performances. Though celebrated to glorify the camels of Rajasthan, this festival also includes the traditional Rajasthani folk performances. The festival 
+                         concludes with an awe-inspiring display of fireworks, illuminating the majestic skies of Bikaner.</p>
+                      </ul>
+        </li>
+ 		
+ </ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
+			
+		

@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bihar</title>
+	<link  href="mystyle.css"  rel="stylesheet" type="text/css"/>
+</head>
+<style> 
+body { 
+   background-image: url("images1/restaurant.jpg");
+    background-color: #cccccc;
+}#header {
+	background:url(images1/bc1.jpg) repeat 0 0;
+	background-color:#102E50;
+	height: 300px;
+}
+h2 {
+    font-size: 1.875em;
+}
+
+p {
+    font-size: 1.0em;
+}
+</style>
+<body>
+<div id="page">
+<div id="header" >
+
+	<h1>Bihar</h1>
+<div id="menu">
+ <ul>
+ 	<li><a href="index1.html">Home</a></li>
+ 	<li> <a href="#"> Food </a> 
+	<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/bihar.jpg" >
+                        <img class="mySlides" src="images1/chokha.jpg" >
+                        
+                        
+	                    
+						
+</div>
+</ul>
+	</li>
+ 	
+<li> <a href="#"> Fashion </a>
+<ul>
+          <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="images1/B1.jpg" >
+						<img class="mySlides" src="images1/B2.jpg" >
+					                        
+	                    
+</div>
+</ul>
+</li>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+ 	<li> <a href="#"> Festival </a> 
+ 	<ul>
+ 		<li> <a href="#">Chatth Puja</a>
+		<ul>
+		 <div><img src="images1/chath.jpg">
+            <h2>Chatth Puja</h2>
+						
+<p><br>This is probably the most famous festival of this State. When one hears Chatth Puja, Bihar instantly comes to the mind. This is an actually an ancient Hindu festival which is dedicated to the Sun God, Surya, and take place 6 days after Diwali. It is an expression of thanks giving and seeking blessings from the Almighty for sustaining  life on Earth. During this festival, the person observing Chatth, also known as Parvati, observes a fast from dawn to dusk which concludes with sweets. This fast is followed by another fast for 36 hours till the final day, when puja starts at the river, before sunrise. You can witness thousands of devotees and the river during this time. Witnessing Chatth Puja will let you witness the devotion in its true sense.</p>
+                      </ul>
+		</li>
+ 		<li> <a href="#">Shravani Mela</a>
+		<ul>
+		 <div><img src="images1/shravani.jpg">
+      <img src="images1/shravani2.jpg">
+            <h2>Shravani Mela</h2>
+						
+<p><br>This festival or rather Mela is observed every during the month of Shravan (July-August). It is an important month-long ritual which is held along a 108 km long route linking towns of Deogarh and Sultanganj. The devotees who take part, known as Kanwarias, wear saffron-coloured clothes and collect water from the sacred Ghats at Sultanganj. They then walk barefoot on the 108 km long stretch to Deogarh to bathe the sacred Shiva-linga. This festival draws thousands of people from all around the country every year.</p>
+                      </ul>
+		</li>
+ 		<li> <a href="#">Rajgir Mahotsav</a>
+		<ul>
+		 <div><img src="images1/rajgir 2.jpg">
+      <img src="images1/rajgir.jpg">
+            <h2>Rajgir Mahotsav</h2>
+						
+<p><br>Rajgir is the ancient capital of the Magadhan Empire in Bihar and is held sacred by both Jains and Buddhists because of its long association with Buddha and Mahavira.A Rajgir Mahotsav is held every year by the Department of Tourism, Bihar. It is a colourful festival of dance and music. A complete serene atmosphere is created here with the instrumental music, devotional songs, opera, folk dance, ballet and other dance and art forms. This festival held in the last week of October attracts a large number of tourists from around the world.
+</p>
+                      </ul>
+		</li>
+ 		
+ 	</ul>
+</li>
+ </ul>
+</div>
+</body>
+</html>
